@@ -1,0 +1,10 @@
+# Algoritimo Tarefa 001: Gratificação de natal (IF)
+# Dev: Juan Felipe Ribas
+# Data: 28.08.22
+
+HorasExtras = float(input("Digite o número de horas extras: "))
+HorasFaltas = float(iinput("Digite o número de horas Faltantes: "))
+
+TotalMinutos = (HorasExtas - (2/3*HorasFaltas)) * 60
+
+print(TotalMinutos)
