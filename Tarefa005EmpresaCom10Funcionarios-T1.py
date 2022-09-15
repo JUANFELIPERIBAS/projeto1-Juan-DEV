@@ -22,6 +22,7 @@ a) Leia as informações dos funcionários - número de horas trabalhadas - turn
 Laco1 = 1
 Laco2 = True
 Laco3 = True
+Laco4 = True
 
 while Laco1 <= 10:
     # Quadro do laço principal
@@ -31,9 +32,18 @@ while Laco1 <= 10:
     AuxilioAlimentacao = 0
 
     Codigo = input("Digite o código do funcionário: ")
-    HoraTrabalhada = float(input("Digite as horas trabalhadas: "))
 
-    #----------------------Condicionais Categoria G ou O
+    # ----------------------Condicionais para Hora trabalhada
+    while Laco4:
+        if HoraTrabalhada = float(input("Digite as horas trabalhadas: ")):
+        if HoraTrabalhada = float
+            Laco4 = False
+        else:
+            print("Erro, Digite novamente")
+            continue
+        break
+
+    #----------------------Condicionais Categoria G e Turno N
     while Laco2:
         Categoria = input("Digite a categoria: ")
         if Categoria == 'O' or Categoria == 'G':
